@@ -22,7 +22,7 @@ body {
 }
 
 .cabecalho {
-  padding: 2% 0% 0 15%;
+  padding: 2% 0% 0% 15%;
 }
 
 .cabecalho__menu {
@@ -39,7 +39,7 @@ body {
 }
 
 .apresentacao {
-  padding:5% 15%;
+  padding: 5% 15%;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -96,12 +96,10 @@ body {
   text-decoration: none;
   color: var(--cor-secundaria);
   font-family: var(--fonte-secundaria);
-  margin-right: 6%;
 }
 
-.apresentacao__links__link:hover {
+.apresentacao__links__navegacao:hover {
   background-color: var(--cor-hover);
-  padding: 3%;
 }
 
 .apresentacao__imagem {
